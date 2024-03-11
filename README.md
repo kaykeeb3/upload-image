@@ -1,29 +1,61 @@
-# Curso de Desenvolvimento Front-end: Introdução ao HTML, CSS e Javascript
+```markdown
+# Upload de Imagens API
 
-Bem-vindo ao curso de Desenvolvimento Front-end! Este repositório contém informações essenciais sobre cada módulo do curso. Certifique-se de seguir a sequência para uma compreensão completa dos conceitos abordados.
+Esta é uma API para fazer o upload e listar imagens. A aplicação foi desenvolvida com Node.js, Express, Postgresql, Prisma e TypeScript.
 
-## Módulo 01: Introdução ao Front-end com HTML, CSS e Javascript
+## Funcionalidades
 
-Este módulo serve como uma base sólida para o curso. Aqui, você aprenderá os conceitos fundamentais do desenvolvimento front-end, explorando HTML, CSS e Javascript. Ao final, você terá uma compreensão clara dos papéis de cada tecnologia na construção de páginas web dinâmicas e atraentes.
+- Faz o upload de imagens para o servidor.
+- Lista todas as imagens que foram enviadas anteriormente.
 
-## Módulo 02: Introdução ao HTML
+## Tecnologias Utilizadas
 
-Neste módulo, mergulharemos mais profundamente no HTML. Você aprenderá a estrutura básica de uma página HTML, a importância das tags e como criar documentos web semânticos. Práticas interativas garantirão que você domine a criação de páginas HTML eficientes e bem estruturadas.
+- Node.js
+- Express
+- Prisma
+- TypeScript
+- Multer
 
-## Módulo 03: SEO, Parágrafos e Títulos com HTML
+## Como Usar
 
-Descubra como otimizar suas páginas para os motores de busca (SEO) e a importância de parágrafos e títulos bem definidos. Este módulo proporcionará uma compreensão mais profunda de como melhorar a acessibilidade e a visibilidade do conteúdo web.
+1. **Instalação de Dependências**
 
-## Módulo 04: Listas, Links e Navegação com HTML
+   Antes de executar a aplicação, instale as dependências com o seguinte comando:
+```
 
-Aprofunde-se na criação de listas, links e sistemas de navegação usando HTML. Entenda como estruturar informações de maneira lógica e intuitiva, proporcionando uma experiência de usuário mais fluida.
+pnpm install
 
-## Módulo 05: Tabelas e Imagens com HTML
+```
 
-Explore a incorporação de tabelas e imagens em suas páginas HTML. Saiba como apresentar dados tabulares de forma eficaz e como integrar imagens de maneira responsiva e atraente.
+2. **Configuração do Banco de Dados**
 
-## Módulo 06: Formulários, Inputs Types, Tags Semânticas, Comportamentos e Propriedades com HTML
+Certifique-se de configurar corretamente o banco de dados no arquivo `schema.prisma` e aplicar as migrações necessárias.
 
-Aprofunde-se em formulários HTML, explore os diferentes tipos de inputs, compreenda o uso de tags semânticas e aprenda sobre comportamentos e propriedades essenciais. Este módulo fornecerá habilidades essenciais para interatividade e coleta de dados.
+3. **Execução da Aplicação**
 
-**Lembre-se de praticar regularmente e aplicar os conceitos aprendidos em projetos pessoais. Boa sorte em sua jornada de desenvolvimento front-end!**
+Para iniciar o servidor em modo de desenvolvimento, execute o seguinte comando:
+
+```
+
+pnpm run dev
+
+```
+
+4. **Fazendo Upload de Imagens**
+
+Para fazer upload de uma imagem, envie uma requisição POST para `http://localhost:3000/api/upload` com a imagem anexada.
+
+5. **Listando Imagens**
+
+Para listar todas as imagens enviadas, envie uma requisição GET para `http://localhost:3000/api/images`.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você quiser melhorar esta aplicação, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+```
+
+Este README.md fornece uma descrição concisa do projeto, suas funcionalidades, as tecnologias utilizadas, instruções sobre como usar a aplicação e informações sobre contribuição e licença. Certifique-se de ajustar as seções conforme necessário para refletir melhor o seu projeto.

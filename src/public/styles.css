@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+#imageContainer {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 300px;
+  margin-top: 10px;
+}
