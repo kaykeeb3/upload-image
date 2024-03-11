@@ -1,7 +1,9 @@
+Claro! Aqui está uma versão melhorada do README.md:
+
 ```markdown
 # Upload de Imagens API
 
-Esta é uma API para fazer o upload e listar imagens. A aplicação foi desenvolvida com Node.js, Express, Postgresql, Prisma e TypeScript.
+Este é um projeto de API para fazer o upload e listar imagens. A aplicação foi desenvolvida utilizando Node.js, Express, PostgreSQL, Prisma e TypeScript.
 
 ## Funcionalidades
 
@@ -10,11 +12,12 @@ Esta é uma API para fazer o upload e listar imagens. A aplicação foi desenvol
 
 ## Tecnologias Utilizadas
 
-- Node.js
-- Express
-- Prisma
-- TypeScript
-- Multer
+- Node.js: Plataforma de execução de JavaScript assíncrona baseada no V8.
+- Express: Framework web rápido, flexível e minimalista para Node.js.
+- PostgreSQL: Sistema de gerenciamento de banco de dados relacional de código aberto.
+- Prisma: ORM moderno para Node.js e TypeScript.
+- TypeScript: Superset do JavaScript que adiciona tipagem estática à linguagem.
+- Multer: Middleware para manipulação de dados de formulário multipart/form-data, usado para upload de arquivos.
 
 ## Como Usar
 
@@ -58,4 +61,4 @@ Contribuições são bem-vindas! Se você quiser melhorar esta aplicação, sint
 Este projeto está licenciado sob a [MIT License](LICENSE).
 ```
 
-Este README.md fornece uma descrição concisa do projeto, suas funcionalidades, as tecnologias utilizadas, instruções sobre como usar a aplicação e informações sobre contribuição e licença. Certifique-se de ajustar as seções conforme necessário para refletir melhor o seu projeto.
+Este README.md fornece uma descrição mais detalhada do projeto, explicando as funcionalidades, as tecnologias utilizadas e como usar a aplicação. Também inclui instruções claras sobre como instalar as dependências, configurar o banco de dados e executar a aplicação. Além disso, mantém as seções sobre contribuição e licença para encorajar a participação da comunidade e garantir que o projeto seja utilizado de acordo com os termos da licença.
